@@ -1,6 +1,5 @@
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { NativeScriptModule } from 'nativescript-angular/nativescript.module';
-import { AppRoutingModule } from './app.routing';
 import { AppComponent } from './app/app.component';
 
 @NgModule({
@@ -8,8 +7,7 @@ import { AppComponent } from './app/app.component';
         AppComponent
     ],
     imports: [
-        NativeScriptModule,
-        AppRoutingModule
+        NativeScriptModule
     ],
     declarations: [
         AppComponent
