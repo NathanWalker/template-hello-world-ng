@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { NativeScriptRouterModule } from 'nativescript-angular/router';
 import { Routes } from '@angular/router';
 
-import { AppComponent } from './app.component';
+import { AppComponent } from './app/app.component';
 
 const routes: Routes = [
     { path: '', component: AppComponent }
